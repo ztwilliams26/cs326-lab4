@@ -1,9 +1,6 @@
 //Zachary Williams - 2020
-function greeter(person: string) {
+function greeter(person) {
     return "Hello, " + person;
 }
-
-let user = "Jane User";
-
+var user = "Jane User";
 document.body.textContent = greeter(user);
-
